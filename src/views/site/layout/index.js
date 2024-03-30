@@ -1,0 +1,29 @@
+export let menus = [
+  {id:1,title:'首页',name:'Home'},
+  {id:2,title:'志愿活动',name:'Activity'},
+  {
+    id:'7F85C9768A27475E873022A2E1392BCA',
+    name:'VoluntaryStyle',
+    title:'志愿风采',
+  },
+  {
+    id:'23E580EE02514E078F5C636E3EE56385',
+    name:'Announcement',
+    title:'通知公告',
+  },
+  {id:5,title:'新闻资讯',name:'NewsInformation'},
+  {id:6,title:'后台登录',name:'AdminLogin'},
+  {id:7,title:'个人中心',name:'UserLayout'},
+  {
+    id:'C17A23BD925143D595A31203A5C7F6DD',
+    pid:'7F85C9768A27475E873022A2E1392BCA',
+    name:'VoluntaryStyle:Volunteer,Activity',
+    title:'志愿者',
+  },
+  {
+    id:'77A3DB00B0ED4DD785D158FFA2301685',
+    pid:'7F85C9768A27475E873022A2E1392BCA',
+    name:'VoluntaryStyle:Volunteer,Activity',
+    title:'志愿活动',
+  }
+]
